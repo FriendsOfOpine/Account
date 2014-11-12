@@ -1,5 +1,5 @@
 <?php
-namespace Opine\Account;
+namespace Foo\Account;
 
 class Route {
     private $route;
