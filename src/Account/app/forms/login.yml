@@ -1,0 +1,6 @@
+regions:
+    login:
+        url: '/Account/api/form/Login'
+        args: []
+        partial: 'Account/login.hbs'
+        type: 'Form'

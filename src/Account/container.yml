@@ -1,0 +1,12 @@
+services:
+    accountRoute:
+        class:     'Foo\Account\Route'
+        arguments: ['@route']
+    accountController:
+        class:     'Foo\Account\Controller'
+        arguments: ['@accountService', '@topic', '@accountModel', '@accountView']
+    accountModel:
+        class:     'Foo\Account\Model'
+        arguments: ['@person']
+    accountView:
+        class:     'Foo\Account\View'
