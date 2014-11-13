@@ -28,7 +28,8 @@
             "src/Account/controllers",
             "src/Account/models",
             "src/Account/views",
-            "src/Account/Route.php"
+            "src/Account/Route.php",
+            "src/Account/forms"
         ]
     }
 }
