@@ -25,13 +25,6 @@
 namespace Account\Form;
 
 class Login {
-    public $storage = [
-        'collection'    => 'login_attempts',
-        'key'            => '_id'
-    ];
-    public $after = 'redirect';
-    public $redirect = '/Manager';
-
     function emailField() {
         return [
             'name'        => 'email',

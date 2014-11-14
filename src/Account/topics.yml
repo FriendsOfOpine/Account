@@ -1,0 +1,7 @@
+topics:
+    Account__Form__Login-save:
+        - accountModel@login
+    Account__Form__Forgot-save:
+        - accountModel@forgot
+    Account__Form__Account-save:
+        - accountModel@account

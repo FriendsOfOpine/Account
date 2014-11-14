@@ -7,7 +7,7 @@ services:
         arguments: ['@accountService', '@topic', '@accountModel', '@accountView']
     accountModel:
         class:     'Foo\Account\Model'
-        arguments: ['@person']
+        arguments: ['@post', '@person']
     accountView:
         class:     'Foo\Account\View'
         arguments: ['@layout']

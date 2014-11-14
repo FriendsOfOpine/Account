@@ -25,13 +25,6 @@
 namespace Account\Form;
 
 class Account {
-    public $storage = [
-        'collection'    => 'login_attempts',
-        'key'            => '_id'
-    ];
-    public $after = 'redirect';
-    public $redirect = '/Manager';
-
     function firstnameField() {
         return [
             'name'        => 'first_name',
