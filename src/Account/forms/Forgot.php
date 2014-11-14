@@ -1,6 +1,6 @@
 <?php
 /**
- * Account\Form\Login
+ * Account\Form\Forgot
  *
  * Copyright (c)2013, 2014 Ryan Mahoney, https://github.com/Opine-Org <ryan@virtuecenter.com>
  *
@@ -24,7 +24,7 @@
  */
 namespace Account\Form;
 
-class Login {
+class Forgot {
     public $storage = [
         'collection'    => 'login_attempts',
         'key'            => '_id'
@@ -37,15 +37,6 @@ class Login {
             'name'        => 'email',
             'placeholder' => 'Email',
             'display'     => 'Field\InputText',
-            'required'    => true
-        ];
-    }
-
-    function passwordField() {
-        return [
-            'name'        => 'password',
-            'placeholder' => 'Password',
-            'display'     => 'Field\InputPassword',
             'required'    => true
         ];
     }

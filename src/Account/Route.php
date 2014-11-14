@@ -8,7 +8,9 @@ class Route {
         $this->route = $route;
     }
 
-    public function paths () {}
+    public function paths () {
+        $this->route->get('/account', 'accountController@account');
+    }
 
     public static function location () {
         return __DIR__;

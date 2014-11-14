@@ -10,3 +10,4 @@ services:
         arguments: ['@person']
     accountView:
         class:     'Foo\Account\View'
+        arguments: ['@layout']

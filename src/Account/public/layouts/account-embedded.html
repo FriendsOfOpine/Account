@@ -1,0 +1,16 @@
+<div class="ui page grid">
+    <div class="doubling two column row">
+        <div class="column"><div class="account-optional-column">{{{ContentPartial code="account"}}}</div></div>
+        <div class="column account-section">
+            {{{AccountSSOButtons}}}
+            <div class="ui pointing secondary menu">
+                <div class="item active" data-tab="login">Login</div>
+                <div class="item" data-tab="create">Create Account</div>
+                <div class="item" data-tab="forgot">Forgot Password</div>
+            </div>
+            <div class="ui bottom attached tab active" data-tab="login">{{{login}}}</div>
+            <div class="ui bottom attached tab" data-tab="create">{{{create}}}</div>
+            <div class="ui bottom attached tab" data-tab="forgot">{{{forgot}}}</div>
+        </div>
+    </div>
+</div>

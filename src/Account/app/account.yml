@@ -1,0 +1,13 @@
+regions:
+    login:
+        url: '/Account/api/form/Login'
+        partial: 'Account/forms/login.hbs'
+        type: 'Form'
+    create:
+        url: '/Account/api/form/Account'
+        partial: 'Account/forms/account.hbs'
+        type: 'Form'
+    forgot:
+        url: '/Account/api/form/Forgot'
+        partial: 'Account/forms/forgot.hbs'
+        type: 'Form'

@@ -1,6 +1,6 @@
 <?php
 /**
- * Account\Form\Login
+ * Account\Form\Account
  *
  * Copyright (c)2013, 2014 Ryan Mahoney, https://github.com/Opine-Org <ryan@virtuecenter.com>
  *
@@ -24,13 +24,31 @@
  */
 namespace Account\Form;
 
-class Login {
+class Account {
     public $storage = [
         'collection'    => 'login_attempts',
         'key'            => '_id'
     ];
     public $after = 'redirect';
     public $redirect = '/Manager';
+
+    function firstnameField() {
+        return [
+            'name'        => 'first_name',
+            'placeholder' => 'First Name',
+            'display'     => 'Field\InputText',
+            'required'    => true
+        ];
+    }
+
+    function lastnameField() {
+        return [
+            'name'        => 'last_name',
+            'placeholder' => 'Last Name',
+            'display'     => 'Field\InputText',
+            'required'    => true
+        ];
+    }
 
     function emailField() {
         return [
