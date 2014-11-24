@@ -1,13 +1,19 @@
 services:
     accountRoute:
-        class:     'Foo\Account\Route'
-        arguments: ['@route']
+        class:      'Foo\Account\Route'
+        arguments:  ['@route']
     accountController:
-        class:     'Foo\Account\Controller'
-        arguments: ['@accountService', '@topic', '@accountModel', '@accountView']
+        class:      'Foo\Account\Controller'
+        arguments:  ['@accountService', '@topic', '@accountModel', '@accountView']
     accountModel:
-        class:     'Foo\Account\Model'
-        arguments: ['@post', '@person']
+        class:      'Foo\Account\Model'
+        arguments:  ['@post', '@person']
     accountView:
-        class:     'Foo\Account\View'
-        arguments: ['@layout']
+        class:      'Foo\Account\View'
+        arguments:  ['@layout']
+    helperAccount:
+        class:      'Helper\Account\Account'
+        arguments:  ['@layout']
+    helperAccountSSOButtons:
+        class:      'Helper\Account\AccountSSOButtons'
+        arguments:  ['config.sso', '@layout']

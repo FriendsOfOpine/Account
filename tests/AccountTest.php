@@ -1,11 +1,12 @@
 <?php
 namespace Foo;
 use PHPUnit_Framework_TestCase;
+use Opine\Container\Service as Container;
 
 class AccountTest extends PHPUnit_Framework_TestCase {
     public function setup () {
         $root = __DIR__ . '/../public';
-        $container = new Container($root, $root . '/../container.yml');
+        $container = Container::instance($root, $root . '/../container.yml');
     }
 
     public function testSample () {

@@ -29,7 +29,8 @@
             "src/Account/models",
             "src/Account/views",
             "src/Account/Route.php",
-            "src/Account/forms"
+            "src/Account/forms",
+            "src/Account/helpers"
         ]
     }
 }
