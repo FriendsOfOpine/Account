@@ -25,12 +25,12 @@
     },
     "autoload": {
         "classmap": [
-            "src/Account/controllers",
-            "src/Account/models",
-            "src/Account/views",
-            "src/Account/Route.php",
-            "src/Account/forms",
-            "src/Account/helpers"
+            "src/Account/app/controllers",
+            "src/Account/app/models",
+            "src/Account/app/views",
+            "src/Account/app/Route.php",
+            "src/Account/config/forms",
+            "src/Account/app/helpers"
         ]
     }
 }
