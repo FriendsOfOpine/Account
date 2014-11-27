@@ -1,10 +1,12 @@
 <?php
 namespace Foo\Account;
 
+use Opine\Interfaces\Layout as LayoutInterface;
+
 class View {
     private $layout;
 
-    public function __construct ($layout) {
+    public function __construct (LayoutInterface $layout) {
         $this->layout = $layout;
     }
 
