@@ -6,7 +6,7 @@ if ($('.account-section').length) {
         require('behaviors.js');
         if ($('#opine-account-config').length) {
             var config = JSON.parse($('#opine-account-config').text());
-            if (typeof(config['cssPath']) == 'undefined')
+            if (typeof(config['cssPath']) == 'undefined') {
                 require('../css/style.css');
             }
         } else {
