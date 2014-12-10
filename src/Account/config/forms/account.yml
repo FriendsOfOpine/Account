@@ -1,0 +1,23 @@
+form:
+    slug: FooAccount-Account
+
+    fields:
+        first_name:
+            placeholder: First Name
+            display:     fieldText@render
+            required: true
+
+        last_name:
+            placeholder: Last Name
+            display:     fieldText@render
+            required: true
+
+        email:
+            placeholder: Email
+            display:     fieldText@render
+            required: true
+
+        password:
+            placeholder: Password
+            display:     fieldPassword@render
+            required: true

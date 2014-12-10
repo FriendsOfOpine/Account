@@ -1,4 +1,4 @@
 regions:
     socialbuttons:
-        partial: 'Account/socialbuttons.hbs'
-        type: 'array'
+        partial: Account/socialbuttons.hbs
+        type: array

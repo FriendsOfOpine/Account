@@ -1,0 +1,12 @@
+form:
+    slug: FooAccount-Login
+    fields:
+        email:
+            placeholder: Email
+            display: fieldText
+            required:true
+
+        password:
+            placeholder: Password
+            display: fieldPassword
+            required: true

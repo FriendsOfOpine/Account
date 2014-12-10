@@ -1,0 +1,7 @@
+form:
+    slug: FooAccount-Forgot
+    fields:
+        email:
+            placeholder: Email
+            display: fieldText
+            required: true
