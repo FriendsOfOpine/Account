@@ -1,7 +1,7 @@
 topics:
-    Account__Form__Login-save:
+    'FORM:SAVE:FooAccount-Login':
         - accountModel@login
-    Account__Form__Forgot-save:
+    'FORM:SAVE:FooAccount-Forgot':
         - accountModel@forgot
-    Account__Form__Account-save:
+    'FORM:SAVE:FooAccount-Account':
         - accountModel@account

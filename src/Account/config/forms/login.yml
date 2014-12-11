@@ -3,10 +3,10 @@ form:
     fields:
         email:
             placeholder: Email
-            display: fieldText
-            required:true
+            display: fieldText@render
+            required: true
 
         password:
             placeholder: Password
-            display: fieldPassword
+            display: fieldPassword@render
             required: true

@@ -3,5 +3,5 @@ form:
     fields:
         email:
             placeholder: Email
-            display: fieldText
+            display: fieldText@render
             required: true
