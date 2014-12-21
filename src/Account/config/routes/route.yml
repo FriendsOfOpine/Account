@@ -1,0 +1,3 @@
+route:
+    GET:
+        /account: accountController@account
